@@ -1,0 +1,153 @@
+[
+  {
+    "event": {
+      "studentId": "25IT1182",
+      "complaint": "There has been no water supply in hostel block B for three days and students are falling sick. This is very urgent."
+    },
+    "response": {
+      "statusCode": 200,
+      "body": "{\"complaintId\": \"CMP-41D3F6C3\", \"department\": \"HOSTEL\", \"sentiment\": \"NEGATIVE\", \"priority\": \"HIGH\", \"message\": \"Complaint recorded and department notified.\"}"
+    },
+    "item": {
+      "complaintId": "CMP-41D3F6C3",
+      "createdAt": "2026-10-11T09:45:40.380441+00:00",
+      "studentId": "25IT1182",
+      "department": "HOSTEL",
+      "complaint": "There has been no water supply in hostel block B for three days and students are falling sick. This is very urgent.",
+      "sentiment": "NEGATIVE",
+      "negativeScore": "0.8",
+      "keyPhrases": [
+        "water supply",
+        "hostel block B",
+        "three days"
+      ],
+      "priority": "HIGH",
+      "priorityScore": 88,
+      "status": "OPEN"
+    },
+    "sns": {
+      "TopicArn": "arn:aws:sns:ap-south-1:123456789012:CCTS-Hostel",
+      "Subject": "[HIGH] New HOSTEL complaint CMP-41D3F6C3",
+      "Message": "Complaint ID : CMP-41D3F6C3\nPriority     : HIGH (score 88)\nDepartment   : HOSTEL\nStudent ID   : 25IT1182\nKey phrases  : water supply, hostel block B, three days\nComplaint    : There has been no water supply in hostel block B for three days and students are falling sick. This is very urgent.",
+      "MessageAttributes": {
+        "priority": {
+          "DataType": "String",
+          "StringValue": "HIGH"
+        }
+      }
+    }
+  },
+  {
+    "event": {
+      "studentId": "25IT1182",
+      "complaint": "A senior student is harassing juniors near the library and we feel unsafe."
+    },
+    "response": {
+      "statusCode": 200,
+      "body": "{\"complaintId\": \"CMP-67D82E60\", \"department\": \"ADMIN\", \"sentiment\": \"NEGATIVE\", \"priority\": \"HIGH\", \"message\": \"Complaint recorded and department notified.\"}"
+    },
+    "item": {
+      "complaintId": "CMP-67D82E60",
+      "createdAt": "2026-10-11T09:45:40.380776+00:00",
+      "studentId": "25IT1182",
+      "department": "ADMIN",
+      "complaint": "A senior student is harassing juniors near the library and we feel unsafe.",
+      "sentiment": "NEGATIVE",
+      "negativeScore": "0.5",
+      "keyPhrases": [
+        "senior student",
+        "juniors",
+        "library"
+      ],
+      "priority": "HIGH",
+      "priorityScore": 70,
+      "status": "OPEN"
+    },
+    "sns": {
+      "TopicArn": "arn:aws:sns:ap-south-1:123456789012:CCTS-Admin",
+      "Subject": "[HIGH] New ADMIN complaint CMP-67D82E60",
+      "Message": "Complaint ID : CMP-67D82E60\nPriority     : HIGH (score 70)\nDepartment   : ADMIN\nStudent ID   : 25IT1182\nKey phrases  : senior student, juniors, library\nComplaint    : A senior student is harassing juniors near the library and we feel unsafe.",
+      "MessageAttributes": {
+        "priority": {
+          "DataType": "String",
+          "StringValue": "HIGH"
+        }
+      }
+    }
+  },
+  {
+    "event": {
+      "studentId": "25IT1182",
+      "complaint": "The college bus on route 12 is late every morning, the driver does not stop at the usual stop, and the seats are broken and dirty."
+    },
+    "response": {
+      "statusCode": 200,
+      "body": "{\"complaintId\": \"CMP-4B31633B\", \"department\": \"TRANSPORT\", \"sentiment\": \"NEGATIVE\", \"priority\": \"MEDIUM\", \"message\": \"Complaint recorded and department notified.\"}"
+    },
+    "item": {
+      "complaintId": "CMP-4B31633B",
+      "createdAt": "2026-10-11T09:45:40.380907+00:00",
+      "studentId": "25IT1182",
+      "department": "TRANSPORT",
+      "complaint": "The college bus on route 12 is late every morning, the driver does not stop at the usual stop, and the seats are broken and dirty.",
+      "sentiment": "NEGATIVE",
+      "negativeScore": "0.8",
+      "keyPhrases": [
+        "college bus",
+        "route 12",
+        "usual stop"
+      ],
+      "priority": "MEDIUM",
+      "priorityScore": 48,
+      "status": "OPEN"
+    },
+    "sns": {
+      "TopicArn": "arn:aws:sns:ap-south-1:123456789012:CCTS-Transport",
+      "Subject": "[MEDIUM] New TRANSPORT complaint CMP-4B31633B",
+      "Message": "Complaint ID : CMP-4B31633B\nPriority     : MEDIUM (score 48)\nDepartment   : TRANSPORT\nStudent ID   : 25IT1182\nKey phrases  : college bus, route 12, usual stop\nComplaint    : The college bus on route 12 is late every morning, the driver does not stop at the usual stop, and the seats are broken and dirty.",
+      "MessageAttributes": {
+        "priority": {
+          "DataType": "String",
+          "StringValue": "MEDIUM"
+        }
+      }
+    }
+  },
+  {
+    "event": {
+      "studentId": "25IT1182",
+      "complaint": "The projector in lab 3 is not working properly."
+    },
+    "response": {
+      "statusCode": 200,
+      "body": "{\"complaintId\": \"CMP-BEC52D83\", \"department\": \"ACADEMIC\", \"sentiment\": \"NEUTRAL\", \"priority\": \"LOW\", \"message\": \"Complaint recorded and department notified.\"}"
+    },
+    "item": {
+      "complaintId": "CMP-BEC52D83",
+      "createdAt": "2026-10-11T09:45:40.381005+00:00",
+      "studentId": "25IT1182",
+      "department": "ACADEMIC",
+      "complaint": "The projector in lab 3 is not working properly.",
+      "sentiment": "NEUTRAL",
+      "negativeScore": "0.35",
+      "keyPhrases": [
+        "projector",
+        "lab 3"
+      ],
+      "priority": "LOW",
+      "priorityScore": 21,
+      "status": "OPEN"
+    },
+    "sns": {
+      "TopicArn": "arn:aws:sns:ap-south-1:123456789012:CCTS-Academic",
+      "Subject": "[LOW] New ACADEMIC complaint CMP-BEC52D83",
+      "Message": "Complaint ID : CMP-BEC52D83\nPriority     : LOW (score 21)\nDepartment   : ACADEMIC\nStudent ID   : 25IT1182\nKey phrases  : projector, lab 3\nComplaint    : The projector in lab 3 is not working properly.",
+      "MessageAttributes": {
+        "priority": {
+          "DataType": "String",
+          "StringValue": "LOW"
+        }
+      }
+    }
+  }
+]
